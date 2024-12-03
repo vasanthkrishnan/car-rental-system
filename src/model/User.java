@@ -1,3 +1,5 @@
+package model;
+
 public abstract class User {
 
     private int Id;
@@ -50,6 +52,9 @@ public abstract class User {
     public String getPassword() {
         return password;
     }
+
+
+    public abstract void showList();
 
 
 
